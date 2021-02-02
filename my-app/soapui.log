@@ -1,0 +1,64 @@
+2021-02-01 11:23:30,374 WARN  [SoapUI] Missing folder [C:\Silky\SeleniumTraining\IBMSoapUI\Project1\my-app\ext] for external libraries
+2021-02-01 11:23:30,750 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SilkyMahajan\soapui-settings.xml]
+2021-02-01 11:23:32,514 INFO  [WsdlProject] Loaded project from [file:/C:/Silky/SeleniumTraining/IBMSoapUI/Project1/my-app/Customer-Repository-soapui-project.xml]
+2021-02-01 11:23:33,278 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Customer Repository]
+2021-02-01 11:23:33,281 INFO  [SoapUITestCaseRunner] Running Project [Customer Repository], runType = SEQUENTIAL
+2021-02-01 11:23:33,312 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase1]
+2021-02-01 11:23:33,349 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-01 11:23:33,418 INFO  [SoapUITestCaseRunner] running step [Property Transfer saveCustomer]
+2021-02-01 11:23:33,895 INFO  [SoapUITestCaseRunner] running step [saveCustomer]
+2021-02-01 11:23:35,331 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:23:35,331 INFO  [SoapUITestCaseRunner] running step [customerList]
+2021-02-01 11:23:48,450 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:23:48,451 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2021-02-01 11:23:48,464 INFO  [SoapUITestCaseRunner] running step [searchCustomerById]
+2021-02-01 11:23:49,226 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:23:49,229 INFO  [SoapUITestCaseRunner] running step [Property Transfer to Delete]
+2021-02-01 11:23:49,237 INFO  [SoapUITestCaseRunner] running step [deleteCustomerById]
+2021-02-01 11:23:50,789 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:23:50,791 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase1], time taken: 17410ms, status: FINISHED
+2021-02-01 11:23:50,800 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase  Property Expansion]
+2021-02-01 11:23:50,805 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-01 11:23:50,808 INFO  [SoapUITestCaseRunner] running step [saveCustomer]
+2021-02-01 11:23:51,580 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:23:51,582 INFO  [SoapUITestCaseRunner] running step [customerList]
+2021-02-01 11:24:03,806 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:03,806 INFO  [SoapUITestCaseRunner] running step [searchCustomerById]
+2021-02-01 11:24:04,517 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:04,518 INFO  [SoapUITestCaseRunner] running step [deleteCustomerById]
+2021-02-01 11:24:05,190 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:05,191 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase  Property Expansion], time taken: 14371ms, status: FINISHED
+2021-02-01 11:24:05,194 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Groovy Script]
+2021-02-01 11:24:05,195 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-01 11:24:05,196 INFO  [SoapUITestCaseRunner] running step [saveCustomer]
+2021-02-01 11:24:06,787 INFO  [log] 6903
+2021-02-01 11:24:06,791 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:06,793 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-02-01 11:24:06,797 INFO  [SoapUITestCaseRunner] running step [customerList]
+2021-02-01 11:24:17,926 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:17,926 INFO  [SoapUITestCaseRunner] running step [searchCustomerById]
+2021-02-01 11:24:18,677 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:18,678 INFO  [SoapUITestCaseRunner] running step [deleteCustomerById]
+2021-02-01 11:24:19,746 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:19,747 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Groovy Script], time taken: 14537ms, status: FINISHED
+2021-02-01 11:24:19,750 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Groovy Script using Property]
+2021-02-01 11:24:19,750 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-01 11:24:19,752 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-02-01 11:24:19,853 INFO  [log] Raj
+2021-02-01 11:24:19,856 INFO  [log] Rao
+2021-02-01 11:24:19,856 INFO  [log] SoapCust6@gmail.com
+2021-02-01 11:24:19,862 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Groovy Script]
+2021-02-01 11:24:19,868 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-01 11:24:19,870 INFO  [SoapUITestCaseRunner] running step [saveCustomer]
+2021-02-01 11:24:20,812 INFO  [log] 6904
+2021-02-01 11:24:20,813 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:20,814 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-02-01 11:24:20,816 INFO  [SoapUITestCaseRunner] running step [customerList]
+2021-02-01 11:24:30,363 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:30,364 INFO  [SoapUITestCaseRunner] running step [searchCustomerById]
+2021-02-01 11:24:31,119 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:31,120 INFO  [SoapUITestCaseRunner] running step [deleteCustomerById]
+2021-02-01 11:24:32,103 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 11:24:32,104 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Groovy Script], time taken: 12221ms, status: FINISHED
+2021-02-01 11:24:32,106 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Groovy Script using Property], time taken: 12353ms, status: FINISHED
+2021-02-01 11:24:32,108 INFO  [SoapUITestCaseRunner] Project [Customer Repository] finished with status [FINISHED] in 58816ms
